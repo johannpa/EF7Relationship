@@ -9,5 +9,6 @@ namespace EF7Relationships.Data
 
         public DbSet<Character> Characters { get; set; }
         public DbSet<Backpack> Backpacks { get; set; }
+        public DbSet<Weapon> Weapons { get; set; }
     }
 }
